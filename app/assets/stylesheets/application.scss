@@ -1,2 +1,24 @@
+// Graphical variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External libraries
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "vendor/index";
+
+// Your CSS
+@import "layout/index";
+@import "components/index";
+@import "pages/index";
+
+
+.card {
+  min-height: 200px;
+  background: #959595;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}

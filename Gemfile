@@ -31,8 +31,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 #FRONT END GEM
+gem "jquery-rails"
 gem "bootstrap-sass"
 gem "simple_form"
+gem 'font-awesome-sass'
+gem 'autoprefixer-rails'
 
 
 gem 'faker'
